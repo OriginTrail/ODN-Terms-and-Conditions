@@ -14,83 +14,94 @@ The mainnet’s evolution included several previous versions:
 - **Version 6 (V6)**: Released on December 15, 2022, bringing neuro-symbolic AI enhancements.
 - **Version 8 (V8)**: The latest iteration, introducing significant advancements such as DKG Edge Nodes, which expand the Decentralized Physical Infrastructure Network (DePIN) capabilities, enabling anyone to run DKG-enabled trusted AI on their devices, thereby preserving privacy and opening new opportunities for builders.
 
+More information on the DKG mainnet roadmap is available at [https://origintrail.io/ecosystem/roadmap](https://origintrail.io/ecosystem/roadmap)
 
+BY USING ORIGINTRAIL V8, YOU FULLY ACKNOWLEDGE AND AGREE THAT ORIGINTRAIL SHALL NOT BE LIABLE FOR ITS FUTURE DEVELOPMENT AND/OR PERFORMANCE. PLEASE NOTE THAT THESE TERMS AND CONDITIONS APPLY SOLELY TO VERSION 8 AND MAY BE SUBJECT TO CHANGES. THESE TERMS AND CONDITIONS DO NOT GOVERN THE USE OF ANY OTHER VERSION OF THE NETWORK, EXCEPT THE USE OF THE V8 NODE.
 
+PLEASE NOTE THAT TECHNICAL DOCUMENTATION, AVAILABLE AT [HTTP://DOCS.ORIGINTRAIL.IO/](http://docs.origintrail.io), CONSTITUTES AN INTEGRAL PART OF THESE TERMS AND CONDITIONS.
 
-
-The ODN mainnet started with the Vostok stage, the first instalment of the mainnet's technological life. The Vostok stage was the first contact of the ODN with real market conditions as the Trace token (TRAC) has been used for network utility ever since. Following Vostok, the v4 Freedom-Gemini stage was launched on 26 December 2019, with initial litigation and reputation mechanisms implemented in real market conditions, opening up the network for all participants. Following improvements, the V6 version was released on 15th of December 2022. More information on the ODN mainnet roadmap is published on the website roadmap page, available at [https://origintrail.io/roadmap](https://origintrail.io/roadmap).
-
-BY USING THE ODN, YOU FULLY ACKNOWLEDGE AND AGREE THAT ORIGINTRAIL SHALL NOT BE IN ANY WAY HELD LIABLE FOR ITS FUTURE DEVELOPMENT AND/OR PERFORMANCE. PLEASE NOTE THAT THESE TERMS AND CONDITIONS APPLY SOLELY TO THE V6 STAGE AND MAY BE SUBJECT TO CHANGES. PLEASE NOTE THAT THESE TERMS AND CONDITIONS DO NOT GOVERN THE USE OF ANY OTHER STAGE OF THE NETWORK, EXCEPT THE USE OF THE V6 NODE.
-
-PLEASE NOTE THAT TECHNICAL DOCUMENTATION, AVAILABLE AT [HTTP://DOCS.ORIGINTRAIL.IO/](http://docs.origintrail.io/), CONSTITUTES AN INTEGRAL PART OF THESE TERMS AND CONDITIONS.
-
-If you have any questions related to the functionalities and use of the OriginTrail v6 node, please contact us via email at [tech@origin-trail.com](mailto:tech@origin-trail.com).
+If you have any questions related to the functionalities and use of the OriginTrail V8 node, please contact us via email at  [tech@origin-trail.com](mailto:tech@origin-trail.com).
 
 ## 1.2 DEFINITIONS
 
-**CONTRIBUTION** means any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to the Licensor for inclusion in the Work by the copyright owner or anyone authorized to submit on behalf of the copyright owner by any means and in any form sent to the Licensor or its representatives, except the communication designated in writing by the copyright owner as a "Non Contribution".
+**CONTRIBUTION** means any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to the Licensor for inclusion in the Work by the copyright owner or anyone authorized to submit on behalf of the copyright owner by any means and in any form sent to the Licensor or its representatives, except the communication designated in writing by the copyright owner as a "Non-Contribution".
 
-**CONTRIBUTOR** shall mean the Licensor and other natural or legal person on behalf of whom the Contribution has been received by the Licensor and incorporated within the Work.
+**CONTRIBUTOR**  shall mean the Licensor and other natural or legal person on behalf of whom the Contribution has been received by the Licensor and incorporated within the Work.
 
-**DERIVATIVE** WORK means any work, whether in Source Form or Object Form, that is based on or derived from the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
+**CORE NODE** means a node that functions as the backbone of the Decentralized Knowledge Graph (DKG), focusing on decentralized data storage, verification, and propagation. Core Nodes are essential for maintaining the integrity and connectivity of the DKG network.
 
-**HOSTNAME** means the public network address or hostname that will be used in P2P communication with other nodes for the node's self identification.
+**EDGE NODE** means a node that provides access to the Decentralized Knowledge Graph (DKG) for end-users and applications. Edge Nodes are optimized for interfacing with the network, enabling users to query, publish, and interact with Knowledge Assets.
 
-**LICENSE** means these Terms and Conditions, and all terms incorporated by reference herein, governing the use of the OriginTrail v6 node.
+**DECENTRALIZED KNOWLEDGE GRAPH (DKG)** means a peer-to-peer network infrastructure designed to enable the decentralized storage, sharing, and management of verifiable knowledge assets. The DKG operates as a neutral, open-source platform that facilitates interactions between nodes within a decentralized ecosystem. It ensures data integrity, privacy, and interoperability by leveraging blockchain and distributed ledger technologies to create a trusted foundation for various applications, including supply chains, artificial intelligence, and other sectors.
+
+**DERIVATIVE WORK** means any work, whether in Source Form or Object Form, that is based on or derived from the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
+
+**HOSTNAME** means the public network address or hostname that will be used in P2P communication with other nodes for the node's self-identification.
+
+**LICENSE** means these Terms and Conditions, and all terms incorporated by reference herein, governing the use of the OriginTrail V8 node.
 
 **LICENSOR** means the copyright owner or anyone authorized by the copyright owner that is granting this License.
 
-**MAIN NETWORK** also referred to as the Mainnet, is the network that applies the technical procedures and principles described in the OriginTrail Whitepaper, available at [https://origintrail.io/storage/documents/OriginTrail-White-Paper.pdf](https://origintrail.io/storage/documents/OriginTrail-White-Paper.pdf) and OriginTrail Whitepaper 2.0 available at [https://parachain.origintrail.io/whitepaper](https://parachain.origintrail.io/whitepaper).
+**MAIN NETWORK**  also referred to as the Mainnet, is the network that applies the technical procedures and principles described in the OriginTrail Whitepaper, available at 
+[https://origintrail.io/ecosystem/whitepaper](https://origintrail.io/ecosystem/whitepaper). 
 
-**TEST NETWORK** also referred to as the Testnet, is a network that emulates the operation of the main network, used for testing and development purposes. Test networks have no incentivisation OriginTrail mechanisms and therefore cannot support the value propositions of OriginTrail as described in the OriginTrail White paper, available at [https://origintrail.io/storage/documents/OriginTrail-White-Paper.pdf](https://origintrail.io/storage/documents/OriginTrail-White-Paper.pdf) and OriginTrail Whitepaper 2.0 [https://parachain.origintrail.io/whitepaper](https://parachain.origintrail.io/whitepaper).
+**TEST NETWORK** also referred to as the Testnet, is a network that emulates the operation of the main network, used for testing and development purposes. Test networks have no incentivization OriginTrail mechanisms and therefore cannot support the value propositions of OriginTrail as described in the OriginTrail Whitepaper, available at [https://parachain.origintrail.io/whitepaper](https://origintrail.io/ecosystem/whitepaper).
 
 **OBJECT FORM** means any non-source form of Work or Contribution.
 
-**ODN** means the OriginTrail Decentralized Network.
+**ODN**  means the OriginTrail Decentralized Network, now operating as part of the Decentralized Knowledge Graph (DKG), a peer-to-peer network infrastructure enabling decentralized knowledge sharing, verification, and management.
 
-**ORIGINTRAIL** v6 is the current stage of the ODN, developed by OriginTrail.
+**ORIGINTRAIL V8** means the current stage of the Decentralized Knowledge Graph (DKG), developed by OriginTrail, digitalne rešitve za dobavne verige, d.o.o., including significant advancements such as DKG Core Nodes and Edge Nodes.
 
-**ORIGINTRAIL** v6 NODE is a client program participating in the OriginTrail v6, exchanging data and communicating with other nodes.
+**ORIGINTRAIL V8 NODE** means a client program participating in the Decentralized Knowledge Graph (DKG), facilitating the storage, sharing, and querying of Knowledge Assets within the network. Nodes include both Core Nodes, which maintain network connectivity and decentralized storage, and Edge Nodes, which enable end-user interaction and integration with trusted AI systems.
 
 **SOURCE CODE** is a set of instructions and statements written by a programmer using computer programming, representing a computer program.
 
 **SOURCE FORM** means the preferred form for making modifications, including, but not limited to, software source code, documentation code, and configuration files.
 
-**TECHNICAL DOCUMENTATION** means all documentation published by OriginTrail in reference to the use of the ODN, available at [http://docs.origintrail.io/en/latest/index.html](http://docs.origintrail.io/en/latest/index.html) and on GitHub [https://github.com/origintrail](https://github.com/origintrail).
+
+**TECHNICAL DOCUMENTATION** means all documentation published by OriginTrail in reference to the use of the ODN, available at [http://docs.origintrail.io](http://docs.origintrail.io) and on GitHub [https://github.com/origintrail](https://github.com/origintrail).
 
 **US** means OriginTrail, digitalne rešitve za dobavne verige, d.o.o., located at Vojkova cesta 63, 1000 Ljubljana, Slovenia.
 
-**WORK** means the work of authorship, whether in Source Form or Object Form, made available under the License, as indicated by a copyright notice, included or attached to the Work. For the purpose of these Terms and Conditions Work, refers to the OriginTrail v6.
+**WORK** means the work of authorship, whether in Source Form or Object Form, made available under the License, as indicated by a copyright notice, included or attached to the Work. For the purpose of these Terms and Conditions Work, refers to the OriginTrail V8.
 
 **YOU** means the natural or legal entity exercising permissions granted under this License.
 
 ## 1.3 SETTING UP AND CONFIGURING A NODE ON THE MAINNET
-You need to install and set up the node, as well as obtain some TRAC and respective blockchain gas tokens (e.g. OTP) to enable node operations. These funds enable your node to connect to the mainnet and register its network profile. For detailed information on requirements and instructions on how to set up a node, please visit [https://tech.origintrail.io/node-setup-mainnet](https://tech.origintrail.io/node-setup-mainnet).
+You need to install and set up the node, as well as obtain some Trace tokens (TRAC) and respective blockchain gas tokens (e.g. NEURO) to enable node operations. These funds enable your node to connect to the mainnet and register its network profile. For detailed information on requirements and instructions on how to set up a node, please visit [https://docs.origintrail.io/dkg-v8-upcoming-version/dkg-v8-update-guidebook](https://docs.origintrail.io/dkg-v8-upcoming-version/dkg-v8-update-guidebook).
 
 ## 1.4 SETTING UP AND CONFIGURING A NODE ON THE TESTNET
-You need to install and set up the node, as well as obtain some ATRAC and test blockchain gas token to enable node operations. These funds enable your node to connect to the testnet and register its profile. For detailed information on requirements and instructions on how to set up a node, please visit [https://tech.origintrail.io/node-setup-testnet](https://tech.origintrail.io/node-setup-testnet).
+You need to install and set up the node, as well as obtain some test TRAC and test blockchain gas tokens to enable node operations. These funds enable your node to connect to the testnet and register its profile. For detailed information on requirements and instructions on how to set up a node, please visit 
+[https://docs.origintrail.io/dkg-v8-upcoming-version/run-a-v8-core-node-on-testnet](https://docs.origintrail.io/dkg-v8-upcoming-version/run-a-v8-core-node-on-testnet).
 
 ## 1.5 RIGHTS AND OBLIGATIONS
-By accepting these Terms and Conditions, you agree to install the OriginTrail v6 node and regularly update the OriginTrail v6 node. Since it is crucial for the development of the ODN to be regularly updated, OriginTrail may, as a member of the open-source community, contribute modifications and updates to the ODN. Please note that updates will be applied automatically, except when otherwise possible, without prior notice. Therefore you shall weekly check Github, at [https://github.com/OriginTrail/ot-node/releases](https://github.com/OriginTrail/ot-node/releases), for any modifications and updates to the OriginTrail v6 node source code as well as our Discord tech chat, available at [https://discord.gg/FCgYk2S](https://discord.gg/FCgYk2S). You are solely responsible for the acknowledgement of any modifications or updates to the OriginTrail v6 Node you are using.
-Non-compliance with these Terms and Conditions, and any terms incorporated by reference herein, could result in the reversible or irreversible inability to use the OriginTrail v6 node.
-You are solely liable for the truthfulness and lawfulness of the information provided by you at any stage of the use of the OriginTrail v6 node.
+By accepting these Terms and Conditions, you agree to install the OriginTrail V8 Node and regularly update the Node to ensure its compatibility with the Decentralized Knowledge Graph (DKG). Regular updates are crucial for the development and functioning of the DKG. OriginTrail, as a member of the open-source community, may contribute modifications and updates to the DKG. Updates to the OriginTrail V8 Node may be applied automatically unless otherwise specified, and without prior notice.
+
+You are required to check GitHub regularly at [https://github.com/OriginTrail/ot-node/releases](https://github.com/OriginTrail/ot-node/releases) for any modifications and updates to the OriginTrail V8 Node source code. Additionally, you should monitor our Discord tech chat, available at [https://discord.gg/xCaY7hvNwD](https://discord.gg/xCaY7hvNwD), for technical discussions and announcements. You are solely responsible for acknowledging and implementing any modifications or updates to the OriginTrail V8 Node that you are using.
+
+Non-compliance with these Terms and Conditions, or any terms incorporated by reference herein, could result in the reversible or irreversible inability to use the OriginTrail V8 Node.
+
+You are solely responsible for ensuring the truthfulness and lawfulness of the information provided by you at any stage of the use of the OriginTrail V8 Node.
 
 ## 1.6 GRANT OF COPYRIGHT LICENSE
-Subject to these Terms and Conditions, OriginTrail hereby grants you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the OriginTrail v6 node and such Derivative Works in Source Form or Object Form.
+Subject to these Terms and Conditions, OriginTrail hereby grants you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the OriginTrail V8 node and such Derivative Works in Source Form or Object Form.
 
 ## 1.7 GRANT OF PATENT LICENSE
-Subject to these Terms and Conditions, where and if applicable, OriginTrail hereby grants you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in section 3 of the Apache License, version 2.0) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the OriginTrail v6 node.
+Subject to these Terms and Conditions, where and if applicable, OriginTrail hereby grants you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in section 3 of the Apache License, version 2.0) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the OriginTrail V8 node.
 
 ## 1.8 TRADEMARKS
-The use of OriginTrail trademarks is forbidden, except as required for use in describing the origin of the OriginTrail v6 node and Derivative Works.
+The use of OriginTrail trademarks is forbidden, except as required for use in describing the origin of the OriginTrail V8 node and Derivative Works.
+
 Nothing in these Terms and Conditions grants you the right to use OriginTrail trademarks, including, but not limited to, trademarks, service marks, trade names, and product names.
 
 ## 1.9 REDISTRIBUTION
-You may reproduce and distribute copies of the OriginTrail v6 node or Derivative Works thereof in any medium, with or without modifications, and in Source Form or Object Form, provided that you meet the following conditions:
-You must ensure that any other recipients of the Work or Derivative Works are given a copy of,  acquainted with and bound by these Terms and Conditions; and
-You must make sure that any modified files carry prominent notices stating that you changed the files; and
-You must retain, in the Source Form of any Derivative Work that you distribute, all copyright, patent, trademark, and attribution notices from the Source Form of the OriginTrail v6 node, excluding those notices that do not pertain to any part of the Derivative Works; and
-if the Work includes a NOTICE text file as part of its distribution, then any Derivative Works that you distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source Form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+You may reproduce and distribute copies of the OriginTrail V8 node or Derivative Works thereof in any medium, with or without modifications, and in Source Form or Object Form, provided that you meet the following conditions:
+    - You must ensure that any other recipients of the Work or Derivative Works are given a copy of, acquainted with, and bound by these Terms and Conditions; and
+    - You must make sure that any modified files carry prominent notices stating that you changed the files; and
+    - You must retain, in the Source Form of any Derivative Work that you distribute, all copyright, patent, trademark, and attribution notices from the Source Form of the OriginTrail V8 node, excluding those notices that do not pertain to any part of the Derivative Works; and
+    - If the Work includes a NOTICE text file as part of its distribution, then any Derivative Works that you distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source Form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
 
 ## 1.10 SUBMISSION OF CONTRIBUTIONS
 Unless You explicitly state otherwise, any Contribution submitted for the inclusion in the OriginTrail v6 node source code by you to the Licensor shall be under these Terms and Conditions, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
