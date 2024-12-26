@@ -109,62 +109,88 @@ Unless You explicitly state otherwise, any Contribution submitted for the inclus
 
 By submitting any Contribution, you:
 
-(a) Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, transform, modify or adapt, publicly display, publicly perform, sublicense, and distribute the Contribution or its Derivative Works in Source Form or Object Form.
-(b) Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in section 3 of the Apache License, version 2.0) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Contribution.
+1. Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, transform, modify or adapt, publicly display, publicly perform, sublicense, and distribute the Contribution or its Derivative Works in Source Form or Object Form.
+2.  Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in section 3 of the Apache License, version 2.0) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Contribution.
 
-## 1.11 ACKNOWLEDGEMENT AND ASSUMPTION OF RISKS
-OriginTrail developed the ODN, licensed under the Apache License 2.0 (available at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)) and may promote it as an open-source network. HOWEVER, YOU SHALL AT ALL TIMES NOTE THAT ORIGINTRAIL DOES NOT OWN OR CONTROL THE ODN AND YOU ARE SOLELY AND IN FULLY RESPONSIBLE FOR YOUR USE OF THE ODN.
+## 1.11 DELEGATED STAKING
+
+Delegated staking enables users to delegate TRAC tokens to nodes within the Decentralized Knowledge Graph (hereinafter referred to as the “DKG”). The staked tokens act as collateral, ensuring the security and quality of node operations. Upon delegating TRAC tokens to a node, the tokens are locked in a smart contract, and a proportional amount of stake shared is associated with the delegating wallet address in the associated smart contract. To withdraw your staked TRAC tokens, you must initiate the withdraw function in the same smart contract in which your TRAC tokens are locked.
+
+More information about the delegation of TRAC tokens is available in the DKG Technical Documentation at [https://docs.origintrail.io](https://docs.origintrail.io).
+
+Delegated staking operates in a permissionless environment and may be accessed either directly through smart contracts or via various interfaces. The primary interface supported and maintained by OriginTrail is the DKG Staking Dashboard, accessible at [https://staking.origintrail.io](https://staking.origintrail.io). Users are solely responsible for choosing the interface through which they access the delegated staking feature. If using the DKG Staking Dashboard, OriginTrail advises verifying the URL’s authenticity to avoid scams or phishing attempts.
+
+As delegated staking operates in a decentralized and permissionless way, the DKG Staking Dashboard is designed never to access your funds. You are solely responsible for managing your wallet, private keys, and other sensitive information that may allow unauthorized access to your wallet.
+
+The selection of a node to which you delegate TRAC tokens is entirely your responsibility. The choice of node may significantly impact the amount of network rewards you receive as a delegator. It is strongly recommended to familiarize yourself with the network reward mechanics, detailed in the DKG Technical Documentation. If you do not fully understand the functioning of the reward system, it is advised to refrain from participating in delegated staking.
+
+
+## 1.12 ACKNOWLEDGEMENT AND ASSUMPTION OF RISKS
+OriginTrail developed the DKG, licensed under the Apache License 2.0 (available at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)), and may promote it as an open-source network. HOWEVER, YOU SHALL AT ALL TIMES NOTE THAT ORIGINTRAIL DOES NOT OWN OR CONTROL THE DKG AND YOU ARE SOLELY AND FULLY RESPONSIBLE FOR YOUR USE OF THE DKG.
+
 The OriginTrail Node source code is an open-source code that anyone can copy, use, modify, and distribute in accordance with these Terms and Conditions and terms incorporated by reference. As a member of the open-source community, OriginTrail may, at its sole discretion, contribute modifications and updates to the OriginTrail Node source code.
-You shall at all times acknowledge and agree that certain risks exist in relation to using the ODN. You fully acknowledge and agree that:
-OriginTrail does not own or control the ODN.
-OriginTrail does not have any authority to approve, prevent, restrict, or anyhow exercise control over any interaction that occurs through the ODN.
-You shall not have any expectations over the performance of the ODN or compensation of the individual node.
-OriginTrail v6 node source code has not passed a third-party security audit and can be potentially unstable and could cause unexpected effects and system failures.
-You are eligible to join the OriginTrail v6 only under the condition that you have successfully met all the requirements as provided in these Terms and Conditions, and the terms incorporated by reference herein.
-By using the OriginTrail v6 node you covenant, represent, and warrant that you have, at the time of joining the OriginTrail v6, reached the age of majority in your jurisdiction of residence, but are not less than 18 years old.
-By using the OriginTrail v6 node you covenant, represent, and warrant that your use of the OriginTrail v6 node complies with your jurisdiction of residence and you are fully able and legally competent to use the OriginTrail v6 node.
-By using the OriginTrail v6 node you covenant, represent, and warrant that you have sufficient understanding of blockchain technology and cryptographic tokens, cryptographic private and public keys (token wallets), and understand these Terms and Conditions and all terms incorporated by reference.
-In the event your use of the OriginTrail v6 node does not comply with the applicable law of your jurisdiction of residence, you shall be fully liable for any consequences incurred thereof and fully acknowledge and agree that OriginTrail shall not be held liable for your use of the OriginTrail v6 node.
 
-By using the OriginTrail v6 node, you fully acknowledge that the OriginTrail v6 node is neutral, peer-to-peer network and is as such not controlled or managed by any one party. Furthermore, by using the OriginTrail v6 node, you fully acknowledge that no partnership between you and  Origin Trail has been created, and no party has been authorised to act as agent for the other, and neither party shall have the authority to act in the name or on behalf of or otherwise to bind the other in any way (including, but not limited to, the making of any representation or warranty, the assumption of any obligation or liability and the exercise of any right or power).
+You shall at all times acknowledge and agree that certain risks exist in relation to using the DKG. You fully acknowledge and agree that:
 
-By using the OriginTrail v6 node, you fully acknowledge and agree that you voluntarily enter into relationships between you and other node holders, as well as data providers and data viewers (as described in the Technical Documentation) and you are aware that these relationships shall in no way constitute business-to-consumer relationships.
-The OriginTrail v6 node source code is provided on an "AS IS" basis, without warranties and conditions of any kind, either express or implied, including, without limitation, any warranties or conditions of title, merchantability, fitness for a particular purpose, and non-infringement, unless otherwise required by applicable law.
-The entire risks as to the quality and performance of using the ODN are borne by you.
-You are solely responsible for determining the appropriateness of using or redistributing the OriginTrail v6 node source code and/or any Derivative Work and assume any risks associated with your exercise of permission granted under this License.
-You are solely responsible to keep your private keys and node safe and fully acknowledge that OriginTrail does not have any ability to help you recover the private keys if lost. You are solely responsible to regularly check for any modifications and updates to the OriginTrail v6 node source code published at [https://github.com/OriginTrail/ot-node](https://github.com/OriginTrail/ot-node).
+- OriginTrail does not own or control the DKG.
+- OriginTrail does not have any authority to approve, prevent, restrict, or anyhow exercise control over any interaction that occurs through the DKG. As such, OriginTrail is not responsible for any interaction that occurs through the DKG. You shall remain solely responsible for anything you publish on the DKG.  
+- You shall not have any expectations over the performance of the DKG or the compensation of the individual node.
+- OriginTrail V8 Node source code has not passed a third-party security audit and can be potentially unstable and could cause unexpected effects and system failures.
+- You are eligible to join the OriginTrail V8 only under the condition that you have successfully met all the requirements as provided in these Terms and Conditions, and the terms incorporated by reference herein.
+- By using the OriginTrail V8 node you covenant, represent, and warrant that you have, at the time of joining the OriginTrail V8, reached the age of majority in your jurisdiction of residence, but are not less than 18 years old.
+- By using the OriginTrail V8 Node you covenant, represent, and warrant that your use of the OriginTrail V8 node complies with your jurisdiction of residence and you are fully able and legally competent to use the OriginTrail V8 node.
+- By using the OriginTrail V8 Node you covenant, represent, and warrant that you have sufficient understanding of blockchain technology and cryptographic tokens, cryptographic private and public keys (token wallets), and understand these Terms and Conditions and all terms incorporated by reference.
+- In the event your use of the OriginTrail V8 node does not comply with the applicable law of your jurisdiction of residence, you shall be fully liable for any consequences incurred thereof and fully acknowledge and agree that OriginTrail shall not be held liable for your use of the OriginTrail V8 node.
 
-These Terms and Conditions are subject to change, modification, amendment, alteration, or supplementation at any time, without prior notice, at OriginTrail's sole discretion. You are solely responsible to regularly check for any revisions or amendments to these Terms and Conditions. Your continued use of the ODN node shall mean the acceptance of the Terms and Conditions as modified from time to time.
+By using the OriginTrail V8 Node, you fully acknowledge that the OriginTrail V8 DKG is a neutral, peer-to-peer network and is as such not controlled or managed by any one party. Furthermore, by using the OriginTrail V8 Node, you fully acknowledge that no partnership between you and  OriginTrail has been created, no party has been authorized to act as an agent for the other, and neither party shall have the authority to act in the name or on behalf of or otherwise to bind the other in any way (including, but not limited to, the making of any representation or warranty, the assumption of any obligation or liability and the exercise of any right or power).
 
-Updates to the smart contracts used in the ODN are automatic and cannot be declined.
-Updates to the source code may be automatic or manual, depending on what you opted for when installing the ODN.
-However, you shall note that, in the event of not accepting the updates to the source code, your further use of the ODN may be limited or even impossible, and you may not be able to participate in the ODN due to technical reasons and technical incompatibility.
+By using the OriginTrail V8 Node, you fully acknowledge and agree that you voluntarily enter into relationships between you and other node holders, as well as data providers and data viewers (as described in the Technical Documentation) and you are aware that these relationships shall in no way constitute business-to-consumer relationships. 
 
-## 1.12 LIMITATION OF LIABILITY
-In no event and under no legal theory, unless required by applicable law or agreed to in writing, shall OriginTrail, or any other Contributor who modifies and/or conveys the OriginTrail v6 node as permitted above, be liable to you for damages, including any direct, indirect, special, general, incidental or consequential damages of any character arising as a result of this License or out of the use or inability to use the OriginTrail v6 node (including, but not limited to, loss of data or data being rendered inaccurate or losses sustained by you or third parties or a failure of the ODN to operate with any other programs, loss of goodwill, work stoppage, business interruption, computer failure or malfunction or any and all other commercial damages or losses), even if OriginTrail or another Contributor has been advised of the possibility of such damages.
-OriginTrail does not control, take responsibility for, or assume liability for the data in any way processed and stored by you or any third party using the OriginTrail v6 node or for any damage or loss incurred thereto. You shall solely be liable for the appropriateness, lawfulness, and accurateness of the data in any way processed by you using the OriginTrail v6 node.
+The OriginTrail V8 Node source code is provided on an "AS IS" basis, without warranties and conditions of any kind, either express or implied, including, without limitation, any warranties or conditions of title, merchantability, fitness for a particular purpose, and non-infringement, unless otherwise required by applicable law.
 
-## 1.13 TAXES AND OTHER DUTIES
-You are solely responsible for determining what, if any, taxes or other duties apply to you for your use of the OriginTrail v6 node. It is also your responsibility to withhold, collect, report, and remit the correct taxes to the appropriate tax authorities, according to the legislation in force. OriginTrail is not responsible and shall be in no way held liable for withholding, collecting, reporting, and remitting and taxes arising from, or in connection to, your use of the OriginTrail v6 node.
+The entire risk as to the quality and performance of using the DKG is borne by you.
+You are solely responsible for determining the appropriateness of using or redistributing the OriginTrail V8 Node source code and/or any Derivative Work and assume any risks associated with your exercise of permission granted under this License.
 
-## 1.14 TECHNICAL DOCUMENTATION
-The Technical Documentation, essential for the use of the ODN, is available at [http://docs.origintrail.io/](http://docs.origintrail.io/).
+
+You are solely responsible for keeping your private keys and node safe and fully acknowledge that OriginTrail does not have any ability to help you recover the private keys if lost. You are solely responsible for regularly checking for any modifications and updates to the OriginTrail V8 Node source code published at [https://github.com/OriginTrail/ot-node](https://github.com/OriginTrail/ot-node).
+
+These Terms and Conditions are subject to change, modification, amendment, alteration, or supplementation at any time, without prior notice, at OriginTrail's sole discretion. You are solely responsible for regularly checking for any revisions or amendments to these Terms and Conditions. 
+
+Your continued use of the DKG node shall mean the acceptance of the Terms and Conditions as modified from time to time. 
+
+Updates to the smart contracts used in the DKG are automatic and cannot be declined.
+Updates to the source code may be automatic or manual, depending on what you opted for when installing the DKG. 
+
+However, you shall note that, in the event of not accepting the updates to the source code, your further use of the DKG may be limited or even impossible, and you may not be able to participate in the DKG due to technical reasons and technical incompatibility. 
+
+## 1.13 LIMITATION OF LIABILITY
+In no event and under no legal theory, unless required by applicable law or agreed to in writing, shall OriginTrail, or any other Contributor who modifies and/or conveys the OriginTrail V8 Node as permitted above, be liable to you for damages, including any direct, indirect, special, general, incidental or consequential damages of any character arising as a result of this License or out of the use or inability to use the OriginTrail V8 Node (including, but not limited to, loss of data or data being rendered inaccurate or losses sustained by you or third parties or a failure of the DKG to operate with any other programs, loss of goodwill, work stoppage, business interruption, computer failure or malfunction or any and all other commercial damages or losses), even if OriginTrail or another Contributor has been advised of the possibility of such damages.
+OriginTrail does not control, take responsibility for, or assume liability for the data in any way processed and stored by you or any third party using the OriginTrail V8 Node or for any damage or loss incurred thereto. You shall solely be liable for the appropriateness, lawfulness, and accuracy of the data in any way processed by you using the OriginTrail V8 node.
+
+## 1.14 TAXES AND OTHER DUTIES
+You are solely responsible for determining what if any, taxes or other duties apply to you for your use of the OriginTrail V8 node. It is also your responsibility to withhold, collect, report, and remit the correct taxes to the appropriate tax authorities, according to the legislation in force. OriginTrail is not responsible and shall be in no way held liable for withholding, collecting, reporting, and remitting taxes arising from, or in connection to, your use of the OriginTrail V8 Node.
+
+## 1.15 TECHNICAL DOCUMENTATION
+The Technical Documentation, essential for the use of the DKG, is available at [http://docs.origintrail.io/](http://docs.origintrail.io/).
 PLEASE NOTE THAT THE TECHNICAL DOCUMENTATION CONSTITUTES AN INTEGRAL PART OF THESE TERMS AND CONDITIONS. BY ACCEPTING THESE TERMS AND CONDITIONS, YOU ACKNOWLEDGE AND AGREE TO BE BOUND BY THE TECHNICAL DOCUMENTATION IN ITS ENTIRETY.
 
-## 1.15 GOVERNING LAW AND JURISDICTION
-These Terms and Conditions, and your use of the OriginTrail v6 node, shall be governed by and construed in accordance with the laws of Slovenia.
-In the event of any dispute arising out of or in connection with these Terms and Conditions or/and your use of the OriginTrail v6 Freedom-Gemini Network node, the competent Court in Ljubljana, Slovenia shall have the exclusive jurisdiction to solve the dispute.
 
-## 1.16 SEVERABILITY
+## 1.16 GOVERNING LAW AND JURISDICTION
+These Terms and Conditions, and your use of the OriginTrail V8 Node, shall be governed by and construed in accordance with the laws of Slovenia.
+In the event of any dispute arising out of or in connection with these Terms and Conditions or/and your use of the OriginTrail V8 Node, the competent Court in Ljubljana, Slovenia shall have the exclusive jurisdiction to solve the dispute. 
+
+## 1.17 SEVERABILITY
 If any term, clause, or provision of these Terms and Conditions, or any terms incorporated by reference herein, is held unlawful, void, or unenforceable, then that term, clause, or provision will be severable from these Terms and will not affect the validity or enforceability of any remaining part of that term, clause, or provision, or any other term, clause, or provision of these Terms and Conditions.
 
-## 1.17 REVISION OF THE TERMS AND CONDITIONS
-OriginTrail reserves the right to revise these Terms and Conditions, or any terms incorporated by reference herein, at any time, without prior notice. By accepting these Terms and Conditions, you acknowledge and agree to be bound by the Terms and Conditions in force at the time of your use of the ODN (as may be changed from time to time).
+## 1.18 REVISION OF THE TERMS AND CONDITIONS
+OriginTrail reserves the right to revise these Terms and Conditions, or any terms incorporated by reference herein, at any time, without prior notice. By accepting these Terms and Conditions, you acknowledge and agree to be bound by the Terms and Conditions in force at the time of your use of the ODN (as may be changed from time to time). 
 
 Licensed under the Apache License, Version 2.0 (the "Apache License"); you may not use this file except in compliance with the Apache License.
+
 You may obtain a copy of the Apache License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
 Unless required by applicable law or agreed to in writing, software distributed under the Apache Licenseis distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the Apache License for the specific language governing permissions and limitations under the Apache License.
-Issued in Ljubljana, 15 December 2022. Date of last revision: 15 December 2022.
-OriginTrail, digitalne rešitve za dobavne verige, d.o.o.
 
+Issued in Ljubljana, December 26 2024. Date of last revision: 26 December 2024.
+OriginTrail d.o.o.
 Tomaž Levak, Director
+
