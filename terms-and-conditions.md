@@ -1,11 +1,22 @@
-# TERMS AND CONDITIONS OF THE ORIGINTRAIL DECENTRALIZED NETWORK - ORIGINTRAIL V6
+# TERMS AND CONDITIONS OF THE ORIGINTRAIL DECENTRALIZED KNOWLEDGE GRAPH - DKG V8
 ## 1.1 INTRODUCTION
 
-The OriginTrail Decentralized Network V6 (hereinafter referred to as "ODN" or "OriginTrail v6" or “V6”) is a neutral, peer-to-peer network for supply chain data sharing with an open-source implementation of a network node developed by OriginTrail, digitalne rešitve za dobavne verige, d.o.o., located at Vojkova cesta 63, 1000 Ljubljana, Slovenia, identification number: 8088314000, tax number: SI 62600095, a company organized and established under the laws of Slovenia (hereinafter referred to as "OriginTrail").
+The OriginTrail Decentralized Knowledge Graph (DKG) Version 8 (hereinafter referred to as “OriginTrail V8” or “V8”) is a neutral, peer-to-peer network designed to facilitate decentralized knowledge sharing across various sectors, including supply chains. It features an open-source implementation of both Core Nodes and Edge Nodes, developed by OriginTrail, digitalne rešitve za dobavne verige, d.o.o., located at Vojkova cesta 63, 1000 Ljubljana, Slovenia, identification number: 8088314000, tax number: SI 62600095, a company organized and established under the laws of Slovenia (hereinafter referred to as “OriginTrail”).
 
-The OriginTrail v6 is licensed under the Apache License, version 2.0. You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
+The OriginTrail V8 is licensed under the Apache License, version 2.0. You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0). 
 
-The ODN consists of different test networks (hereinafter referred to as "testnets") and a main network (hereinafter referred to as "mainnet"). The testnets of ODN enable users to get familiar with the technology before using the ODN mainnet.
+The DKG comprises various test networks (hereinafter referred to as “testnets”) and a main network (hereinafter referred to as “mainnet”). The testnets enable users to familiarize themselves with the technology before utilizing the mainnet.
+
+The mainnet’s evolution included several previous versions:
+ **Vostok Stage**: The initial phase of the mainnet’s technological lifecycle.
+- **Freedom-Gemini Stage (v4)**: Launched on December 26, 2019, this stage introduced initial litigation and reputation mechanisms in real market conditions, opening the network to all participants.
+- **Version 5 (V5)**: Released on March 23, 2021, enabling multichain DKG.
+- **Version 6 (V6)**: Released on December 15, 2022, bringing neuro-symbolic AI enhancements.
+- **Version 8 (V8)**: The latest iteration, introducing significant advancements such as DKG Edge Nodes, which expand the Decentralized Physical Infrastructure Network (DePIN) capabilities, enabling anyone to run DKG-enabled trusted AI on their devices, thereby preserving privacy and opening new opportunities for builders.
+
+
+
+
 
 The ODN mainnet started with the Vostok stage, the first instalment of the mainnet's technological life. The Vostok stage was the first contact of the ODN with real market conditions as the Trace token (TRAC) has been used for network utility ever since. Following Vostok, the v4 Freedom-Gemini stage was launched on 26 December 2019, with initial litigation and reputation mechanisms implemented in real market conditions, opening up the network for all participants. Following improvements, the V6 version was released on 15th of December 2022. More information on the ODN mainnet roadmap is published on the website roadmap page, available at [https://origintrail.io/roadmap](https://origintrail.io/roadmap).
 
