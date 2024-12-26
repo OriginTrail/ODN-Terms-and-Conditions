@@ -105,11 +105,12 @@ You may reproduce and distribute copies of the OriginTrail V8 node or Derivative
 
 
 ## 1.10 SUBMISSION OF CONTRIBUTIONS
-Unless You explicitly state otherwise, any Contribution submitted for the inclusion in the OriginTrail v6 node source code by you to the Licensor shall be under these Terms and Conditions, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+Unless You explicitly state otherwise, any Contribution submitted for the inclusion in the OriginTrail V8 Node source code by you to the Licensor shall be under these Terms and Conditions, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
 
 By submitting any Contribution, you:
-1. Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, transform, modify or adapt, publicly display, publicly perform, sublicense, and distribute the Contribution or its Derivative Works in Source Form or Object Form.
-2. Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in section 3 of the Apache License, version 2.0) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Contribution.
+
+(a) Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, transform, modify or adapt, publicly display, publicly perform, sublicense, and distribute the Contribution or its Derivative Works in Source Form or Object Form.
+(b) Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in section 3 of the Apache License, version 2.0) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Contribution.
 
 ## 1.11 ACKNOWLEDGEMENT AND ASSUMPTION OF RISKS
 OriginTrail developed the ODN, licensed under the Apache License 2.0 (available at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)) and may promote it as an open-source network. HOWEVER, YOU SHALL AT ALL TIMES NOTE THAT ORIGINTRAIL DOES NOT OWN OR CONTROL THE ODN AND YOU ARE SOLELY AND IN FULLY RESPONSIBLE FOR YOUR USE OF THE ODN.
