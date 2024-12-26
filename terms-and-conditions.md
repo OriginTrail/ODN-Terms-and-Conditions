@@ -8,7 +8,7 @@ The OriginTrail V8 is licensed under the Apache License, version 2.0. You may ob
 The DKG comprises various test networks (hereinafter referred to as “testnets”) and a main network (hereinafter referred to as “mainnet”). The testnets enable users to familiarize themselves with the technology before utilizing the mainnet.
 
 The mainnet’s evolution included several previous versions:
- **Vostok Stage**: The initial phase of the mainnet’s technological lifecycle.
+- **Vostok Stage**: The initial phase of the mainnet’s technological lifecycle.
 - **Freedom-Gemini Stage (v4)**: Launched on December 26, 2019, this stage introduced initial litigation and reputation mechanisms in real market conditions, opening the network to all participants.
 - **Version 5 (V5)**: Released on March 23, 2021, enabling multichain DKG.
 - **Version 6 (V6)**: Released on December 15, 2022, bringing neuro-symbolic AI enhancements.
