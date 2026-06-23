@@ -1,196 +1,261 @@
-# TERMS AND CONDITIONS OF THE ORIGINTRAIL DECENTRALIZED KNOWLEDGE GRAPH - DKG V8
-## 1.1 INTRODUCTION
+# OriginTrail Decentralized Knowledge Graph DKG V10 - Terms and Conditions
 
-The OriginTrail Decentralized Knowledge Graph (DKG) Version 8 (hereinafter referred to as “OriginTrail V8” or “V8”) is a neutral, peer-to-peer network designed to facilitate decentralized knowledge sharing across various sectors, including supply chains. It features an open-source implementation of both Core Nodes and Edge Nodes, developed by OriginTrail, digitalne rešitve za dobavne verige, d.o.o., located at Vojkova cesta 63, 1000 Ljubljana, Slovenia, identification number: 8088314000, tax number: SI 62600095, a company organized and established under the laws of Slovenia (hereinafter referred to as “OriginTrail”).
+## Preamble
 
-The OriginTrail V8 is licensed under the Apache License, version 2.0. You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0). 
+The OriginTrail Decentralized Knowledge Graph Version 10 (hereinafter referred to as "**OriginTrail V10**" or "**V10**") is a neutral, peer-to-peer, multi-chain network designed to facilitate decentralized knowledge publishing, verification, and retrieval by human and autonomous software agents. OriginTrail V10 consists of open-source Core Nodes and Edge Nodes implementation, a three-layer Memory Model (Working Memory, Shared Working Memory, Verified Memory), and on-chain primitives (Knowledge Assets, Knowledge Collections, Context Graphs, Verified Graphs, Publisher Conviction Accounts, and Staker Conviction Positions) deployed across multiple EVM-compatible blockchains.
 
-The DKG comprises various test networks (hereinafter referred to as “testnets”) and a main network (hereinafter referred to as “mainnet”). The testnets enable users to familiarize themselves with the technology before utilizing the mainnet.
+OriginTrail V10 is developed by **OriginTrail, digitalne rešitve za dobavne verige, d.o.o.,** Vojkova cesta 63, 1000 Ljubljana, Slovenia, identification number: 8088314000, a company organized and established under the laws of Slovenia (hereinafter referred to as "**OriginTrail**").
 
-The mainnet’s evolution included several previous versions:
-- **Vostok Stage**: The initial phase of the mainnet’s technological lifecycle.
-- **Freedom-Gemini Stage (v4)**: Launched on December 26, 2019, this stage introduced initial litigation and reputation mechanisms in real market conditions, opening the network to all participants.
-- **Version 5 (V5)**: Released on March 23, 2021, enabling multichain DKG.
-- **Version 6 (V6)**: Released on December 15, 2022, bringing neuro-symbolic AI enhancements.
-- **Version 8 (V8)**: The latest iteration, introducing significant advancements such as DKG Edge Nodes, which expand the Decentralized Physical Infrastructure Network (DePIN) capabilities, enabling anyone to run DKG-enabled trusted AI on their devices, thereby preserving privacy and opening new opportunities for builders.
+The OriginTrail V10 Node software is licensed under the Apache License, version 2.0. You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
-More information on the DKG mainnet roadmap is available at [https://origintrail.io/ecosystem/roadmap](https://origintrail.io/ecosystem/roadmap)
+**PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE INSTALLING, OPERATING, OR OTHERWISE USING ANY OriginTrail V10 NODE, AGENT, OR RELATED ON-CHAIN SOFTWARE. BY DOWNLOADING, INSTALLING, OPERATING, PUBLISHING TO, QUERYING, OR OTHERWISE INTERACTING WITH THE OriginTrail V10 NETWORK, OR BY MINTING, ACQUIRING, HOLDING, OR TRANSFERRING ANY V10 NFT POSITION, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS AND ALL TERMS INCORPORATED BY REFERENCE. IF YOU DO NOT AGREE, DO NOT USE THE OriginTrail V10 NETWORK.**
 
-BY USING ORIGINTRAIL V8, YOU FULLY ACKNOWLEDGE AND AGREE THAT ORIGINTRAIL SHALL NOT BE LIABLE FOR ITS FUTURE DEVELOPMENT AND/OR PERFORMANCE. PLEASE NOTE THAT THESE TERMS AND CONDITIONS APPLY SOLELY TO VERSION 8 AND MAY BE SUBJECT TO CHANGES. THESE TERMS AND CONDITIONS DO NOT GOVERN THE USE OF ANY OTHER VERSION OF THE NETWORK, EXCEPT THE USE OF THE V8 NODE.
+## 1. Definitions
 
-PLEASE NOTE THAT TECHNICAL DOCUMENTATION, AVAILABLE AT [HTTP://DOCS.ORIGINTRAIL.IO/](http://docs.origintrail.io), CONSTITUTES AN INTEGRAL PART OF THESE TERMS AND CONDITIONS.
+For the purpose of these Terms and Conditions, the following capitalised terms shall have the meanings set out below. Singular terms include the plural and vice versa.
 
-If you have any questions related to the functionalities and use of the OriginTrail V8 node, please contact us via email at  [tech@origin-trail.com](mailto:tech@origin-trail.com).
+**AGENT** means an autonomous software program or human-operated account that participates in the OriginTrail V10 network by publishing, querying, endorsing, or verifying Knowledge Assets under a cryptographic keypair.
 
-## 1.2 DEFINITIONS
+**APACHE LICENSE** means the Apache License, version 2.0, available at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
-**CONTRIBUTION** means any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to the Licensor for inclusion in the Work by the copyright owner or anyone authorized to submit on behalf of the copyright owner by any means and in any form sent to the Licensor or its representatives, except the communication designated in writing by the copyright owner as a "Non-Contribution".
+**CONTEXT GRAPH** or "**CG**" means a bounded knowledge space within the OriginTrail V10 network in which a single Agent or a group of Agents collaborate.
 
-**CONTRIBUTOR**  shall mean the Licensor and other natural or legal person on behalf of whom the Contribution has been received by the Licensor and incorporated within the Work.
+**CONTRIBUTION** means any work of authorship, including modifications to or additions to the OriginTrail V10 Node source code, technical documentation, or related software, submitted by You to the Licensor for inclusion in the OriginTrail V10 Node.
 
-**CORE NODE** means a node that functions as the backbone of the Decentralized Knowledge Graph (DKG), focusing on decentralized data storage, verification, and propagation. Core Nodes are essential for maintaining the integrity and connectivity of the DKG network.
+**DECENTRALIZED KNOWLEDGE GRAPH** or "**DKG**" means the shared, decentralized, multi-chain knowledge graph hosted by the OriginTrail V10 network, consisting of Knowledge Assets organized into Context Graphs.
 
-**EDGE NODE** means a node that provides access to the Decentralized Knowledge Graph (DKG) for end-users and applications. Edge Nodes are optimized for interfacing with the network, enabling users to query, publish, and interact with Knowledge Assets.
+**DERIVATIVE WORK** means any work, whether in Source Form or Object Form, that is based on, derived from, or incorporates the OriginTrail V10 Node or any portion thereof, as defined under the Apache License.
 
-**DECENTRALIZED KNOWLEDGE GRAPH (DKG)** means a peer-to-peer network infrastructure designed to enable the decentralized storage, sharing, and management of verifiable knowledge assets. The DKG operates as a neutral, open-source platform that facilitates interactions between nodes within a decentralized ecosystem. It ensures data integrity, privacy, and interoperability by leveraging blockchain and distributed ledger technologies to create a trusted foundation for various applications, including supply chains, artificial intelligence, and other sectors.
+**KNOWLEDGE ASSET** or "**KA**" means the on-chain representation of a set of RDF triples sharing a single root subject URI, anchored on a supported blockchain. Each Knowledge Asset is an ERC-1155 token; the token holder controls UPDATE authority over that KA.
 
-**DERIVATIVE WORK** means any work, whether in Source Form or Object Form, that is based on or derived from the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
+**LICENSE** means the Apache License, version 2.0, together with these Terms and Conditions.
 
-**HOSTNAME** means the public network address or hostname that will be used in P2P communication with other nodes for the node's self-identification.
+**LICENSOR** means OriginTrail, digitalne rešitve za dobavne verige, d.o.o., Vojkova cesta 63
 
-**LICENSE** means these Terms and Conditions, and all terms incorporated by reference herein, governing the use of the OriginTrail V8 node.
+1000 Ljubljana, Slovenia, identification number: 8088314000
 
-**LICENSOR** means the copyright owner or anyone authorized by the copyright owner that is granting this License.
+**MAINNET** means the production OriginTrail V10 network deployed across the Supported Blockchains.
 
-**MAIN NETWORK**  also referred to as the Mainnet, is the network that applies the technical procedures and principles described in the OriginTrail Whitepaper, available at 
-[https://origintrail.io/ecosystem/whitepaper](https://origintrail.io/ecosystem/whitepaper). 
+**MEMORY MODEL** means the three-layer data organisation of the OriginTrail V10 network: (i) Working Memory - local, private, free; (ii) Shared Working Memory - gossip-replicated among selected peers; (iii) Verified Memory - blockchain-anchored, requires on-chain publishing, with a trust gradient from self-attested to consensus-verified.
 
-**TEST NETWORK** also referred to as the Testnet, is a network that emulates the operation of the main network, used for testing and development purposes. Test networks have no incentivization OriginTrail mechanisms and therefore cannot support the value propositions of OriginTrail as described in the OriginTrail Whitepaper, available at [https://parachain.origintrail.io/whitepaper](https://origintrail.io/ecosystem/whitepaper).
+**NODE** or "**OriginTrail V10 NODE**" means a client program that participates in the OriginTrail V10 network by hosting Agents, replicating data, serving queries, and - where applicable - submitting blockchain transactions. "Node" includes both Core Nodes (infrastructure that stakes TRAC and supports the network infrastructure) and Edge Nodes (client-side nodes for end-user and application integration).
 
-**OBJECT FORM** means any non-source form of Work or Contribution.
+**OBJECT FORM** means any non-Source-Form expression of the Work, as defined in the Apache License.
 
-**ODN**  means the OriginTrail Decentralized Network, now operating as part of the Decentralized Knowledge Graph (DKG), a peer-to-peer network infrastructure enabling decentralized knowledge sharing, verification, and management.
+**OriginTrail V10** has the meaning given in the Preamble.
 
-**ORIGINTRAIL V8** means the current stage of the Decentralized Knowledge Graph (DKG), developed by OriginTrail, digitalne rešitve za dobavne verige, d.o.o., including significant advancements such as DKG Core Nodes and Edge Nodes.
+**PUBLISHER** means any Person (human or automated) that, acting directly or through one or more Agents, triggers a PUBLISH, UPDATE, or VERIFY operation that anchors data on DKG.
 
-**ORIGINTRAIL V8 NODE** means a client program participating in the Decentralized Knowledge Graph (DKG), facilitating the storage, sharing, and querying of Knowledge Assets within the network. Nodes include both Core Nodes, which maintain network connectivity and decentralized storage, and Edge Nodes, which enable end-user interaction and integration with trusted AI systems.
+**PUBLISHER CONVICTION NFT** means an ERC-721 position representing a commitment of TRAC by a Publisher for a fixed twelve (12) month term in exchange for a pre-purchased publishing allowance and - where applicable - a discount tier, as further described in Section 7 and in the Technical Documentation.
 
-**SOURCE CODE** is a set of instructions and statements written by a programmer using computer programming, representing a computer program.
+**SOURCE CODE** means a set of instructions and statements written by a programmer using computer programming, representing a computer program.
 
-**SOURCE FORM** means the preferred form for making modifications, including, but not limited to, software source code, documentation code, and configuration files.
+**SOURCE FORM** means the preferred form for making modifications, including software source code, documentation, and configuration files.
 
+**STAKER** means any Person that locks TRAC into a Staker Conviction Position, whether directly operating a Node or delegating capital to the network.
 
-**TECHNICAL DOCUMENTATION** means all documentation published by OriginTrail in reference to the use of the ODN, available at [http://docs.origintrail.io](http://docs.origintrail.io) and on GitHub [https://github.com/origintrail](https://github.com/origintrail).
+**STAKER CONVICTION NFT** means an ERC-721 position representing a network-level lock of TRAC for a chosen duration in exchange for a reward multiplier, as further described in Section 7 and in the Technical Documentation.
 
-**US** means OriginTrail, digitalne rešitve za dobavne verige, d.o.o., located at Vojkova cesta 63, 1000 Ljubljana, Slovenia.
+**SUPPORTED BLOCKCHAIN** means any EVM-compatible blockchain on which OriginTrail V10 smart contracts are deployed by OriginTrail or its authorized contributors and recognised by the network, including, as of the effective date of these Terms and Conditions, **NeuroWeb**, **Base**, and **Gnosis**. The list of Supported Chains may be updated from time to time.
 
-**WORK** means the work of authorship, whether in Source Form or Object Form, made available under the License, as indicated by a copyright notice, included or attached to the Work. For the purpose of these Terms and Conditions Work, refers to the OriginTrail V8.
+**TECHNICAL DOCUMENTATION** means all documentation published by OriginTrail in reference to the operation of the OriginTrail V10 network, available at [https://docs.origintrail.io](https://docs.origintrail.io) and on GitHub at [https://github.com/OriginTrail](https://github.com/OriginTrail), including without limitation the V10 Protocol Core specification and the V10 Token Economics specification.
 
-**YOU** means the natural or legal entity exercising permissions granted under this License.
+**TERMS AND CONDITIONS** or "**TERMS**" means these terms and conditions, and all terms incorporated by reference, governing the installation, operation, and use of OriginTrail V10 and its testnets.
 
-## 1.3 SETTING UP AND CONFIGURING A NODE ON THE MAINNET
-You need to install and set up the node, as well as obtain some Trace tokens (TRAC) and respective blockchain gas tokens (e.g. NEURO) to enable node operations. These funds enable your node to connect to the mainnet and register its network profile. For detailed information on requirements and instructions on how to set up a node, please visit [https://docs.origintrail.io/dkg-v8-upcoming-version/dkg-v8-update-guidebook](https://docs.origintrail.io/dkg-v8-upcoming-version/dkg-v8-update-guidebook).
+**TESTNET** means any test network that emulates the operation of a Mainnet, used for testing and development. Testnets have no incentivization mechanisms and therefore cannot support the economic properties of the OriginTrail V10 Mainnet.
 
-## 1.4 SETTING UP AND CONFIGURING A NODE ON THE TESTNET
-You need to install and set up the node, as well as obtain some test TRAC and test blockchain gas tokens to enable node operations. These funds enable your node to connect to the testnet and register its profile. For detailed information on requirements and instructions on how to set up a node, please visit 
-[https://docs.origintrail.io/dkg-v8-upcoming-version/run-a-v8-core-node-on-testnet](https://docs.origintrail.io/dkg-v8-upcoming-version/run-a-v8-core-node-on-testnet).
+**TRAC** means the utility token of the OriginTrail network, used to pay for on-chain publication, updates, verification quorum submissions, and to secure the network through staking.
 
-## 1.5 RIGHTS AND OBLIGATIONS
-By accepting these Terms and Conditions, you agree to install the OriginTrail V8 Node and regularly update the Node to ensure its compatibility with the Decentralized Knowledge Graph (DKG). Regular updates are crucial for the development and functioning of the DKG. OriginTrail, as a member of the open-source community, may contribute modifications and updates to the DKG. Updates to the OriginTrail V8 Node may be applied automatically unless otherwise specified, and without prior notice.
+**US** / **WE** / **OUR** means the Licensor.
 
-You are required to check GitHub regularly at [https://github.com/OriginTrail/ot-node/releases](https://github.com/OriginTrail/ot-node/releases) for any modifications and updates to the OriginTrail V8 Node source code. Additionally, you should monitor our Discord tech chat, available at [https://discord.gg/xCaY7hvNwD](https://discord.gg/xCaY7hvNwD), for technical discussions and announcements. You are solely responsible for acknowledging and implementing any modifications or updates to the OriginTrail V8 Node that you are using.
+**USDC** means the USD-denominated stablecoin issued by Circle Internet Financial, LLC (or its successor issuer), referenced here solely as one example of a non-TRAC settlement asset that may be used for knowledge commerce payments.
 
-Non-compliance with these Terms and Conditions, or any terms incorporated by reference herein, could result in the reversible or irreversible inability to use the OriginTrail V8 Node.
+**VERIFIED GRAPH** means a named verification scope within a Context Graph, with its own participant list and M-of-N quorum, represented on blockchain as an ERC-721 token.
 
-You are solely responsible for ensuring the truthfulness and lawfulness of the information provided by you at any stage of the use of the OriginTrail V8 Node.
+**WORK** means the work of authorship, whether in Source Form or Object Form, made available under the License. For the purpose of these Terms and Conditions, "Work" refers to OriginTrail V10.
 
-## 1.6 GRANT OF COPYRIGHT LICENSE
-Subject to these Terms and Conditions, OriginTrail hereby grants you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the OriginTrail V8 node and such Derivative Works in Source Form or Object Form.
+**x402** means the HTTP 402 Payment Required extension enabling per-query micropayments between Agents, as described in the Technical Documentation.
 
-## 1.7 GRANT OF PATENT LICENSE
-Subject to these Terms and Conditions, where and if applicable, OriginTrail hereby grants you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in section 3 of the Apache License, version 2.0) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the OriginTrail V8 node.
+**YOU** or "**YOUR**" means the natural or legal entity exercising permissions granted under these Terms and Conditions, whether acting directly or through one or more Agents, Nodes, or wallets.
 
-## 1.8 TRADEMARKS
-The use of OriginTrail trademarks is forbidden, except as required for use in describing the origin of the OriginTrail V8 node and Derivative Works.
+## 2. Acceptance and Eligibility
 
-Nothing in these Terms and Conditions grants you the right to use OriginTrail trademarks, including, but not limited to, trademarks, service marks, trade names, and product names.
+2.1 By downloading, installing, operating, publishing to, querying, endorsing, verifying, minting, acquiring, holding, or transferring any component of, or position within, the OriginTrail V10 network or any of its testnets, You acknowledge that You have read, understood, and agree to be bound by these Terms and Conditions.
 
-## 1.9 REDISTRIBUTION
-You may reproduce and distribute copies of the OriginTrail V8 node or Derivative Works thereof in any medium, with or without modifications, and in Source Form or Object Form, provided that you meet the following conditions:
+2.2 You represent and warrant that:
 
-- You must ensure that any other recipients of the Work or Derivative Works are given a copy of, acquainted with, and bound by these Terms and Conditions; and
-- You must make sure that any modified files carry prominent notices stating that you changed the files; and
-- You must retain, in the Source Form of any Derivative Work that you distribute, all copyright, patent, trademark, and attribution notices from the Source Form of the OriginTrail V8 node, excluding those notices that do not pertain to any part of the Derivative Works; and
-- If the Work includes a NOTICE text file as part of its distribution, then any Derivative Works that you distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source Form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+(a) You have, at the time You first interact with OriginTrail V10, reached the age of majority in Your jurisdiction of residence, and in any event are not less than eighteen (18) years old;
 
+(b) Your use of OriginTrail V10 complies with the laws of Your jurisdiction of residence and any other jurisdiction from which You access or operate on the network, and You are fully able and legally competent to use OriginTrail V10;
 
-## 1.10 SUBMISSION OF CONTRIBUTIONS
-Unless You explicitly state otherwise, any Contribution submitted for the inclusion in the OriginTrail V8 Node source code by you to the Licensor shall be under these Terms and Conditions, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+(c) You have sufficient understanding of blockchain technology, cryptographic keys, smart contracts, multi-chain operation, volatile crypto-asset markets, and the technical and economic risks associated with participating in a decentralized network, to make an informed decision to use OriginTrail V10;
 
-By submitting any Contribution, you:
+(d) You are not located in, organised under the laws of, or ordinarily resident in any jurisdiction that is the target of comprehensive economic sanctions administered by the United Nations, the European Union, the United Kingdom, or the United States (including, without limitation, the Office of Foreign Assets Control), nor are You a person or entity designated on any consolidated sanctions list;
 
-1. Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, transform, modify or adapt, publicly display, publicly perform, sublicense, and distribute the Contribution or its Derivative Works in Source Form or Object Form.
-2.  Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in section 3 of the Apache License, version 2.0) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Contribution.
+(e) You are not using OriginTrail V10 to finance, facilitate, or conceal any illegal activity, including, without limitation, money laundering, terrorist financing, tax evasion, market manipulation, or unauthorised trading in regulated instruments;
 
-## 1.11 DELEGATED STAKING
+(f) You are solely responsible for determining whether Your participation in OriginTrail V10 - including the acquisition, holding, transfer, or lock-up of TRAC, Knowledge Assets, Publisher Conviction Accounts, or Staker Conviction Positions - requires authorisation, registration, licensing, or disclosure under the laws applicable to You, and You have satisfied all such requirements.
 
-Delegated staking enables users to delegate TRAC tokens to nodes within the Decentralized Knowledge Graph (hereinafter referred to as the “DKG”). The staked tokens act as collateral, ensuring the security and quality of node operations. Upon delegating TRAC tokens to a node, the tokens are locked in a smart contract, and a proportional amount of stake shared is associated with the delegating wallet address in the associated smart contract. To withdraw your staked TRAC tokens, you must initiate the withdraw function in the same smart contract in which your TRAC tokens are locked.
+2.3 You are solely responsible for ensuring the truthfulness and lawfulness of any information You provide or publish to the OriginTrail V10 network, including any content contained in Knowledge Assets You author, endorse, or verify.
 
-More information about the delegation of TRAC tokens is available in the DKG Technical Documentation at [https://docs.origintrail.io](https://docs.origintrail.io).
+2.4 Non-compliance with these Terms and Conditions, or any terms incorporated by reference herein, could result in the reversible or irreversible inability to use the OriginTrail V10 Node.
 
-Delegated staking operates in a permissionless environment and may be accessed either directly through smart contracts or via various interfaces. The primary interface supported and maintained by OriginTrail is the DKG Staking Dashboard, accessible at [https://staking.origintrail.io](https://staking.origintrail.io). Users are solely responsible for choosing the interface through which they access the delegated staking feature. If using the DKG Staking Dashboard, OriginTrail advises verifying the URL’s authenticity to avoid scams or phishing attempts.
+## 3. OriginTrail V10 Node License
 
-As delegated staking operates in a decentralized and permissionless way, the DKG Staking Dashboard is designed never to access your funds. You are solely responsible for managing your wallet, private keys, and other sensitive information that may allow unauthorized access to your wallet.
+3.1 **Apache License version 2.0.** The OriginTrail V10 Node software is licensed under the Apache License, Version 2.0, the full text of which is incorporated into these Terms and Conditions by reference as if set out in full herein. All copyright, patent, redistribution, and trademark provisions of the Apache License, Version 2.0 apply.
 
-The selection of a node to which you delegate TRAC tokens is entirely your responsibility. The choice of node may significantly impact the amount of network rewards you receive as a delegator. It is strongly recommended to familiarize yourself with the network reward mechanics, detailed in the DKG Technical Documentation. If you do not fully understand the functioning of the reward system, it is advised to refrain from participating in delegated staking.
+3.2. **Trademarks.** The use of OriginTrail trademarks, service marks, trade names, and product names is forbidden, except as strictly required for use in describing the origin of the OriginTrail V10 Node and Derivative Works. Nothing in these Terms and Conditions grants You the right to use OriginTrail trademarks.
 
+## 4. Contributions
 
-## 1.12 ACKNOWLEDGEMENT AND ASSUMPTION OF RISKS
-OriginTrail developed the DKG, licensed under the Apache License 2.0 (available at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)), and may promote it as an open-source network. HOWEVER, YOU SHALL AT ALL TIMES NOTE THAT ORIGINTRAIL DOES NOT OWN OR CONTROL THE DKG AND YOU ARE SOLELY AND FULLY RESPONSIBLE FOR YOUR USE OF THE DKG.
+4.1 Unless explicitly agreed otherwise in writing, any Contribution submitted for inclusion in the OriginTrail V10 Node Source Code by You to the Licensor shall be under these Terms and Conditions, without any additional terms or conditions. Notwithstanding the foregoing, nothing herein supersedes or modifies the terms of any separate license agreement You may have executed with the Licensor regarding such Contributions.
 
-The OriginTrail Node source code is an open-source code that anyone can copy, use, modify, and distribute in accordance with these Terms and Conditions and terms incorporated by reference. As a member of the open-source community, OriginTrail may, at its sole discretion, contribute modifications and updates to the OriginTrail Node source code.
+4.2 By submitting a Contribution, You:
 
-You shall at all times acknowledge and agree that certain risks exist in relation to using the DKG. You fully acknowledge and agree that:
+(a) Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, transform, modify or adapt, publicly display, publicly perform, sublicense, and distribute the Contribution or its Derivative Works in Source Form or Object Form;
 
-- OriginTrail does not own or control the DKG.
-- OriginTrail does not have any authority to approve, prevent, restrict, or anyhow exercise control over any interaction that occurs through the DKG. As such, OriginTrail is not responsible for any interaction that occurs through the DKG. You shall remain solely responsible for anything you publish on the DKG.  
-- You shall not have any expectations over the performance of the DKG or the compensation of the individual node.
-- OriginTrail V8 Node source code has not passed a third-party security audit and can be potentially unstable and could cause unexpected effects and system failures.
-- You are eligible to join the OriginTrail V8 only under the condition that you have successfully met all the requirements as provided in these Terms and Conditions, and the terms incorporated by reference herein.
-- By using the OriginTrail V8 node you covenant, represent, and warrant that you have, at the time of joining the OriginTrail V8, reached the age of majority in your jurisdiction of residence, but are not less than 18 years old.
-- By using the OriginTrail V8 Node you covenant, represent, and warrant that your use of the OriginTrail V8 node complies with your jurisdiction of residence and you are fully able and legally competent to use the OriginTrail V8 node.
-- By using the OriginTrail V8 Node you covenant, represent, and warrant that you have sufficient understanding of blockchain technology and cryptographic tokens, cryptographic private and public keys (token wallets), and understand these Terms and Conditions and all terms incorporated by reference.
-- In the event your use of the OriginTrail V8 node does not comply with the applicable law of your jurisdiction of residence, you shall be fully liable for any consequences incurred thereof and fully acknowledge and agree that OriginTrail shall not be held liable for your use of the OriginTrail V8 node.
+(b) Grant to the Licensor a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in section 3 of the Apache License, version 2.0) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Contribution;
 
-By using the OriginTrail V8 Node, you fully acknowledge that the OriginTrail V8 DKG is a neutral, peer-to-peer network and is as such not controlled or managed by any one party. Furthermore, by using the OriginTrail V8 Node, you fully acknowledge that no partnership between you and  OriginTrail has been created, no party has been authorized to act as an agent for the other, and neither party shall have the authority to act in the name or on behalf of or otherwise to bind the other in any way (including, but not limited to, the making of any representation or warranty, the assumption of any obligation or liability and the exercise of any right or power).
+(c) Represent that You have the right to grant the licenses set out above and that the Contribution does not infringe the intellectual property rights of any third party.
 
-By using the OriginTrail V8 Node, you fully acknowledge and agree that you voluntarily enter into relationships between you and other node holders, as well as data providers and data viewers (as described in the Technical Documentation) and you are aware that these relationships shall in no way constitute business-to-consumer relationships. 
+## 5. Nature of the Network - No OriginTrail Control
 
-The OriginTrail V8 Node source code is provided on an "AS IS" basis, without warranties and conditions of any kind, either express or implied, including, without limitation, any warranties or conditions of title, merchantability, fitness for a particular purpose, and non-infringement, unless otherwise required by applicable law.
+5.1 OriginTrail developed the OriginTrail V10 Node software, licensed under the Apache License 2.0, and may promote it as an open-source network. **HOWEVER, YOU SHALL AT ALL TIMES NOTE THAT ORIGINTRAIL DOES NOT OWN OR CONTROL THE OriginTrail V10 NETWORK, THE DECENTRALIZED KNOWLEDGE GRAPH, ANY SUPPORTED CHAIN, OR ANY RELATED SOFTWARE OR ANY OTHER MODIFICATION TO IT, AND YOU ARE SOLELY AND IN FULL RESPONSIBLE FOR YOUR USE OF EACH AND ANY OF THEM.**
 
-The entire risk as to the quality and performance of using the DKG is borne by you.
-You are solely responsible for determining the appropriateness of using or redistributing the OriginTrail V8 Node source code and/or any Derivative Work and assume any risks associated with your exercise of permission granted under this License.
+5.2 You acknowledge and agree that:
 
+(a) OriginTrail does not own, operate, or control any Node, Agent, Context Graph, Verified Graph, Knowledge Asset, Publisher Conviction Account, Staker Conviction Position, or wallet, except any infrastructure OriginTrail itself chooses to operate in its capacity as one participant among many;
 
-You are solely responsible for keeping your private keys and node safe and fully acknowledge that OriginTrail does not have any ability to help you recover the private keys if lost. You are solely responsible for regularly checking for any modifications and updates to the OriginTrail V8 Node source code published at [https://github.com/OriginTrail/ot-node](https://github.com/OriginTrail/ot-node).
+(b) OriginTrail does not have any authority to approve, prevent, restrict, censor, reverse, or otherwise exercise control over any transaction, publication, endorsement, verification, update, deletion, or any other interaction that occurs through OriginTrail V10 or any Supported Chain;
 
-These Terms and Conditions are subject to change, modification, amendment, alteration, or supplementation at any time, without prior notice, at OriginTrail's sole discretion. You are solely responsible for regularly checking for any revisions or amendments to these Terms and Conditions. 
+(c) You shall not have any expectation as to the performance of the OriginTrail V10 network, the uptime or behaviour of any individual Node, or the compensation paid to any Publisher, Staker, Node operator, or Agent;
 
-Your continued use of the DKG node shall mean the acceptance of the Terms and Conditions as modified from time to time. 
+(d) Where OriginTrail or its affiliates publish opinions, roadmaps, forecasts, or community communications, such materials are provided for informational purposes only, do not create a contractual obligation, and may be changed or withdrawn at any time.
 
-Updates to the smart contracts used in the DKG are automatic and cannot be declined.
-Updates to the source code may be automatic or manual, depending on what you opted for when installing the DKG. 
+## 6. Node Operation
 
-However, you shall note that, in the event of not accepting the updates to the source code, your further use of the DKG may be limited or even impossible, and you may not be able to participate in the DKG due to technical reasons and technical incompatibility. 
+6.1 You are responsible for the installation, configuration, security, maintenance, and operation of any Node You run, including keeping the Node software reasonably up to date with published releases at [https://github.com/OriginTrail](https://github.com/OriginTrail) and ensuring the secure custody of all associated private keys.
 
-## 1.13 LIMITATION OF LIABILITY
-In no event and under no legal theory, unless required by applicable law or agreed to in writing, shall OriginTrail, or any other Contributor who modifies and/or conveys the OriginTrail V8 Node as permitted above, be liable to you for damages, including any direct, indirect, special, general, incidental or consequential damages of any character arising as a result of this License or out of the use or inability to use the OriginTrail V8 Node (including, but not limited to, loss of data or data being rendered inaccurate or losses sustained by you or third parties or a failure of the DKG to operate with any other programs, loss of goodwill, work stoppage, business interruption, computer failure or malfunction or any and all other commercial damages or losses), even if OriginTrail or another Contributor has been advised of the possibility of such damages.
-OriginTrail does not control, take responsibility for, or assume liability for the data in any way processed and stored by you or any third party using the OriginTrail V8 Node or for any damage or loss incurred thereto. You shall solely be liable for the appropriateness, lawfulness, and accuracy of the data in any way processed by you using the OriginTrail V8 node.
+6.2 To operate a Core Node, You must satisfy the minimum technical and economic requirements described in the Technical Documentation. Failure to meet these requirements may, pursuant to protocol-level rules enforced by other participants and smart contracts, result in reduced reputation, reduced allocation of publishing work, or inability to participate in certain operations. OriginTrail **does not operate any discretionary disciplinary process - any consequences are the result of protocol rules and the independent behaviour of other network participants.**
 
-## 1.14 TAXES AND OTHER DUTIES
-You are solely responsible for determining what if any, taxes or other duties apply to you for your use of the OriginTrail V8 node. It is also your responsibility to withhold, collect, report, and remit the correct taxes to the appropriate tax authorities, according to the legislation in force. OriginTrail is not responsible and shall be in no way held liable for withholding, collecting, reporting, and remitting taxes arising from, or in connection to, your use of the OriginTrail V8 Node.
+6.3 You acknowledge that the OriginTrail V10 Node Source Code has not necessarily passed a third-party security audit and can be potentially unstable and could cause unexpected effects and system failures. You are solely responsible for determining the appropriateness of using or redistributing the OriginTrail V10 Node Source Code or any Derivative Work.
 
-## 1.15 TECHNICAL DOCUMENTATION
-The Technical Documentation, essential for the use of the DKG, is available at [http://docs.origintrail.io/](http://docs.origintrail.io/).
-PLEASE NOTE THAT THE TECHNICAL DOCUMENTATION CONSTITUTES AN INTEGRAL PART OF THESE TERMS AND CONDITIONS. BY ACCEPTING THESE TERMS AND CONDITIONS, YOU ACKNOWLEDGE AND AGREE TO BE BOUND BY THE TECHNICAL DOCUMENTATION IN ITS ENTIRETY.
+6.4 You are solely responsible for regularly checking for any modifications and updates to the OriginTrail V10 Node Source Code published at [https://github.com/OriginTrail](https://github.com/OriginTrail).
 
+6.5 You are solely responsible for keeping Your private keys, mnemonics, and Node operational credentials safe. **OriginTrail does not have, and will not have, the ability to help You recover any lost private key, any lost keypair controlling an Agent, any Knowledge Asset ERC-1155 token balance stranded at a lost address, or any funds, NFTs, or allowance held at such an address.**
 
-## 1.16 GOVERNING LAW AND JURISDICTION
-These Terms and Conditions, and your use of the OriginTrail V8 Node, shall be governed by and construed in accordance with the laws of Slovenia.
-In the event of any dispute arising out of or in connection with these Terms and Conditions or/and your use of the OriginTrail V8 Node, the competent Court in Ljubljana, Slovenia shall have the exclusive jurisdiction to solve the dispute. 
+## 7. TRAC, Conviction Positions, and Token Economics
 
-## 1.17 SEVERABILITY
-If any term, clause, or provision of these Terms and Conditions, or any terms incorporated by reference herein, is held unlawful, void, or unenforceable, then that term, clause, or provision will be severable from these Terms and will not affect the validity or enforceability of any remaining part of that term, clause, or provision, or any other term, clause, or provision of these Terms and Conditions.
+7.1 **Utility character of TRAC.** TRAC is a cryptographic utility token the primary function of which is to enable and meter on-chain operations in the OriginTrail V10 network (in particular, the PUBLISH, UPDATE, and VERIFY operations of the Memory Model) and to secure the network through staking. TRAC is not offered, and must not be relied upon, as an investment product, a savings instrument, a deposit, a unit in a collective investment scheme, or a security of any kind.
 
-## 1.18 REVISION OF THE TERMS AND CONDITIONS
-OriginTrail reserves the right to revise these Terms and Conditions, or any terms incorporated by reference herein, at any time, without prior notice. By accepting these Terms and Conditions, you acknowledge and agree to be bound by the Terms and Conditions in force at the time of your use of the ODN (as may be changed from time to time). 
+7.2 **Publisher Conviction.** Publishers may commit TRAC to a Publisher Conviction account for a fixed term in exchange for a pre-purchased publishing allowance, subject to the discount tiers described in the Technical Documentation.
 
-Licensed under the Apache License, Version 2.0 (the "Apache License"); you may not use this file except in compliance with the Apache License.
+7.3 **Delegated Staker Conviction.** Stakers may lock TRAC into a Staker Conviction Position for a chosen duration in exchange for a reward multiplier, subject to the multiplier schedule described in the Technical Documentation.
 
-You may obtain a copy of the Apache License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
-Unless required by applicable law or agreed to in writing, software distributed under the Apache Licenseis distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the Apache License for the specific language governing permissions and limitations under the Apache License.
+7.4 **Programmatic Rewards.** Rewards paid to Stakers, distributions of unused Publisher Conviction allowance, and any other token flows described in the Technical Documentation are programmatic transfers executed by on-chain smart contracts. They are not amounts "owed" by OriginTrail and are not payable by OriginTrail in any capacity. OriginTrail does not itself distribute, guarantee, or underwrite any such transfer.
 
-Issued in Ljubljana, December 26 2024. Date of last revision: 26 December 2024.
-OriginTrail d.o.o.
-Tomaž Levak, Director
+7.5 **Gas and operational costs.** In addition to TRAC, every blockchain transaction on a Supported Blockchain requires the payment of gas in that blockchain's native gas token (including, where applicable, NEURO on NeuroWeb, ETH on Base, and xDAI on Gnosis). You are solely responsible for obtaining and managing such gas tokens.
 
+7.6 **Knowledge commerce and x402.** You acknowledge that, in addition to protocol-level TRAC payments, the OriginTrail V10 network supports knowledge commerce via x402 HTTP micropayments and - in later protocol releases - FairSwap on-chain escrow, settling in TRAC, USDC, or other tokens configured by the serving Node or Publisher. OriginTrail does not operate any x402 or FairSwap endpoint on Your behalf, does not guarantee the availability, performance, or pricing of such endpoints, and is not a party to any commercial transaction concluded between You and any other Agent, Publisher, or Node operator via such mechanisms.
+
+7.7 **Not a security; no investment solicitation.** You acknowledge and agree that:
+
+(a) Neither TRAC, nor Publisher Conviction Accounts, nor Staker Conviction Positions, nor Knowledge Assets, nor Context Graph or Verified Graph tokens, are offered or intended as securities, investment contracts, collective investment schemes, units in a fund, derivatives, or any other form of regulated financial instrument;
+
+(b) You are not acquiring or holding any such asset with an expectation of profit derived from the entrepreneurial or managerial efforts of OriginTrail or any third party acting on OriginTrail's behalf;
+
+(c) Any statements made by OriginTrail in the Technical Documentation, roadmaps, or elsewhere regarding network design, conviction mechanisms, discount curves, reward multipliers, or market dynamics are informational and architectural in nature, and are not offers, promises, guarantees, or forecasts of financial return;
+
+(d) Where the laws of Your jurisdiction would, notwithstanding the foregoing, characterise any component of the OriginTrail V10 network as a regulated instrument, You are solely responsible to immediately stop using that component of the OriginTrail V10 network.
+
+## 8. Agents and Keys
+
+8.1 You may operate one or more Agents. Each Agent is identified by a cryptographic keypair that You (or the automated system operating on Your behalf) generate and control. Agent creation is free at the protocol level and does not require registration with OriginTrail.
+
+8.2 You are solely responsible for:
+
+(a) The generation, storage, rotation, and protection of each Agent's private key;
+
+(b) Any and all operations signed by any Agent under Your control;
+
+(c) The conduct of any automated or "agentic" software operating under Your authority, including the content it publishes, the commitments it makes, the TRAC or other tokens it spends, and the wallets it signs for. **The autonomous or probabilistic character of an Agent is not a defence and does not shift responsibility to OriginTrail or to any other participant or third party.**
+
+8.3 If a key controlling an Agent is lost, compromised, or stolen, the protocol does not provide social or off-chain recovery. You acknowledge and agree that in such a case, You may permanently lose authority over Knowledge Assets or any other assets held at that Agent's address.
+
+## 9. Content Responsibility
+
+9.1 All data that You, Your Agents, or Nodes, or any other third party under Your control publish, endorse, or verify on the OriginTrail V10 network is published by You on Your own authority. You warrant that any such data:
+
+(a) Does not infringe any copyright, trademark, trade secret, patent, publicity, privacy, or other intellectual property or personal right of any third party;
+
+(b) Does not contain unlawful, defamatory, deceptive, or misleading content;
+
+(c) Is, to the extent it contains personal data, processed by You in compliance with all applicable data protection laws (including, where applicable, the EU General Data Protection Regulation); and
+
+(d) May be replicated, stored, and served by other Nodes on the network in accordance with protocol rules, and - in the case of Verified Memory - may be anchored permanently on one or more Supported Chains in a manner that You accept is technically impossible to reverse.
+
+9.2 **Once knowledge is published to Verified Memory, its merkle root is anchored on blockchain and the underlying triples are replicated across Nodes within the relevant Context Graph. UPDATE operations replace the root, but You acknowledge that historical roots, and copies of the underlying data that may have been retained by third-party Nodes, cannot be guaranteed to be erased. You must take this into account when deciding whether to publish any given data.**
+
+## 10. Risk Disclosures
+
+YOU EXPRESSLY ACKNOWLEDGE AND ACCEPT THE FOLLOWING RISKS:
+
+10.1 **Technology risk.** The OriginTrail V10 Node Source Code, Agents, smart contracts, and protocol specifications are complex software. They may contain undiscovered defects, vulnerabilities, or bugs that could lead to loss of TRAC, Knowledge Assets, Conviction positions, or other value.
+
+10.2 **Multi-chain risk.** OriginTrail V10 operates across multiple Supported Chains, including NeuroWeb, Base, and Gnosis. Each Supported Chain is an independent system operated by independent actors and validators, outside the control of OriginTrail. Any Supported Chain may experience outages, forks, consensus failures, re-organisations, governance disputes, regulatory action, or termination. OriginTrail makes no representation as to the availability, finality, or security of any Supported Chain, and You accept that Your assets or positions on any given Supported Chain may be adversely affected by events specific to that blockchain.
+
+10.3 **Cross-chain risk.** Operations that rely on state, tokens, or messages bridged between Supported Chains introduce bridge-specific risks, including smart-contract exploits, validator misbehaviour, loss of canonicality, and temporary or permanent loss of assets in transit. You are solely responsible for evaluating and bearing such risks.
+
+10.4 **Lock-up risk.** TRAC committed to a Publisher Conviction Account or a Staker Conviction Position is locked for a specific duration. During these lock periods, You cannot withdraw the locked tokens. Any secondary-market transfers of the NFT are neither guaranteed nor underwritten.
+
+10.5 **Reward volatility and conditionality.** Staker rewards, Publisher allowance utilisation, and any other programmatic transfers are determined by network activity, gas conditions, and smart-contract execution. Rewards may decrease, pause, or cease altogether. No minimum, guaranteed, or target return is promised by OriginTrail.
+
+10.6 **Stablecoin and payment-rail risk.** x402 micropayments and FairSwap escrow may settle in USDC or other non-TRAC tokens. Such tokens are issued, operated, or controlled by third parties and carry their own risks (including, without limitation, issuer risk, banking risk, peg failure, freezes, blocklists, and regulatory action). OriginTrail does not issue, endorse, or guarantee any such token.
+
+10.7 **Regulatory risk.** The regulatory treatment of crypto-assets, decentralized networks, autonomous software agents, and related activities is evolving worldwide and varies between jurisdictions. Actions or determinations by regulators, courts, or legislatures may adversely affect the availability or value of OriginTrail V10, TRAC, Conviction NFTs, Knowledge Assets, or other positions. You are solely responsible for monitoring and complying with such developments in every jurisdiction relevant to You.
+
+10.8 **Tax risk.** You are solely responsible for determining any tax consequences of Your participation in OriginTrail V10, including in connection with minting, holding, transferring, or selling any Conviction NFT or Knowledge Asset, receiving any programmatic emission, paying or receiving x402 or FairSwap settlements, or operating a Node, and for filing and paying any taxes and duties due.
+
+10.9 **Testnet risk.** Testnets have no incentivization mechanisms and therefore cannot support the economic value propositions of OriginTrail V10 Mainnet. Testnet state, balances, NFTs, and histories may be reset, abandoned, or otherwise destroyed at any time without notice.
+
+## 11. Disclaimer of Warranties
+
+11.1 UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING, THE OriginTrail V10 NODE, THE DECENTRALIZED KNOWLEDGE GRAPH, THE OriginTrail V10 NETWORK, ANY SUPPORTED CHAIN, AND ANY RELATED SOFTWARE ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, RELIABILITY, SECURITY, UPTIME, OR NON-INTERRUPTION.
+
+11.2 THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF USING OriginTrail V10 IS BORNE BY YOU. You are solely responsible for determining the appropriateness of using or redistributing the OriginTrail V10 Node Source Code, any Derivative Work, or any Knowledge Asset, and assume any risks associated with Your exercise of permissions granted under this License.
+
+## 12. Limitation of Liability
+
+12.1 IN NO EVENT AND UNDER NO LEGAL THEORY, UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING, SHALL OriginTrail, OR ANY OTHER CONTRIBUTOR WHO MODIFIES AND/OR CONVEYS THE OriginTrail V10 NODE AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING, BUT NOT LIMITIED TO, ANY DIRECT, INDIRECT, SPECIAL, GENERAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES OF ANY CHARACTER ARISING AS A RESULT OF THIS LICENSE OR OUT OF THE USE OR INABILITY TO USE THE OriginTrail V10 NODE OR THE OriginTrail V10 NETWORK (INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA OR DATA BEING RENDERED INACCURATE, LOSS OF TRAC, NFTS, OR OTHER CRYPTO-ASSETS, LOSSES SUSTAINED BY YOU OR THIRD PARTIES, FAILURE OF ANY SUPPORTED CHAIN, FAILURE OR MALFUNCTION OF ANY AGENT, LOSS OF GOODWILL, WORK STOPPAGE, BUSINESS INTERRUPTION, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES), EVEN IF OriginTrail OR ANY OTHER CONTRIBUTOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+## 13. Indemnification
+
+13.1 To the maximum extent permitted by applicable law, You agree to indemnify, defend, and hold harmless OriginTrail, its affiliates, and their respective directors, officers, employees, and contributors from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising out of or related to: (a) Your use of OriginTrail V10; (b) Your violation of these Terms and Conditions; (c) Your violation of any applicable law or of any right of a third party; (d) any content or data You publish to, or cause to be published to, the OriginTrail V10 network; or (e) the operation of any Agent, Node, or wallet under Your control.
+
+## 14. Technical Documentation
+
+14.1. Please note that the Technical Documentation constitutes an integral part of these terms and conditions. By accepting these terms and conditions, you acknowledge and agree to be bound by the Technical Documentation in its entirety.
+
+## 15.. GoverningLaw and Dispute Resolution
+
+15.1 These Terms and Conditions, and Your use of the OriginTrail V10 Node and the OriginTrail V10 network, shall be governed by and construed in accordance with the laws of Slovenia, excluding its conflict-of-laws principles.
+
+15.2 In the event of any dispute arising out of or in connection with these Terms and Conditions or Your use of the OriginTrail V10 Node, the competent Court in Ljubljana, Slovenia shall have exclusive jurisdiction to resolve the dispute.
+
+15.3 If any term, clause, or provision of these Terms and Conditions, or any terms incorporated by reference herein, is held unlawful, void, or unenforceable, then that term, clause, or provision shall be severable from these Terms and Conditions and shall not affect the validity or enforceability of any remaining part of that term, clause, or provision, or any other term, clause, or provision of these Terms and Conditions.
+
+## 16. Changes to these Terms
+
+16.1 OriginTrail reserves the right to revise these Terms and Conditions, or any terms incorporated by reference herein, at any time, without prior notice. By continuing to use the OriginTrail V10 network after any such revision takes effect, You acknowledge and agree to be bound by the Terms and Conditions in force at the time of Your use.
+
+16.2 You are solely responsible for regularly checking for any revisions or amendments to these Terms and Conditions at the official repository and on [https://docs.origintrail.io](https://docs.origintrail.io).
+
+## 17. Apache License Notice
+
+Licensed under the Apache License, Version 2.0 (the "Apache License"); You may not use this file except in compliance with the Apache License. You may obtain a copy of the Apache License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0). Unless required by applicable law or agreed to in writing, software distributed under the Apache License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the Apache License for the specific language governing permissions and limitations under the Apache License.
+
+Issued in Ljubljana.
+
+OriginTrail, digitalne rešitve za dobavne verige, d.o.o.
+
+------------------------------
